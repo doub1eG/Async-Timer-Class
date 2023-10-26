@@ -17,7 +17,7 @@ Asynchronous single-shot timer on STL
     Timer t3{3,f};
     Timer t4{4,f};
     
-    std::this_thread::sleep_for(2000ms);
+    std::this_thread::sleep_for(5000ms);
     return 0;
 `};`
 
